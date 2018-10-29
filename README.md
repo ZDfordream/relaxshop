@@ -1,10 +1,5 @@
 # relaxmall
-## 项目截图
 
-![Image text](http://7xjyw1.com1.z0.glb.clouddn.com/koa001.png)
-![Image text](http://7xjyw1.com1.z0.glb.clouddn.com/koa002.png)
-![Image text](http://7xjyw1.com1.z0.glb.clouddn.com/koa003.png)
-![Image text](http://7xjyw1.com1.z0.glb.clouddn.com/koa004.png)
 
 ## Build Setup
 
@@ -21,3 +16,20 @@ npm run build
 # build for production and view the bundle analyzer report
 npm run build --report
 ```
+License
+=======
+
+    Copyright 2018 zhudong
+
+
+    Licensed under the Apache License, Version 2.0 (the "License");
+    you may not use this file except in compliance with the License.
+    You may obtain a copy of the License at
+
+       http://www.apache.org/licenses/LICENSE-2.0
+
+    Unless required by applicable law or agreed to in writing, software
+    distributed under the License is distributed on an "AS IS" BASIS,
+    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+    See the License for the specific language governing permissions and
+    limitations under the License.
