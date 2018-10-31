@@ -4,7 +4,7 @@
 const log4js = require('log4js'); // 日志
 const path = require('path');
 // 加载日志配置文件
-log4js.configure(path.resolve(__dirname, '..', 'config', 'log4j.json'));
+log4js.configure(path.resolve(__dirname, './log4j.json'));
 
 module.exports = () => {
   const fn = log4js.connectLogger(log4js.getLogger('http'), { level: 'trace' });

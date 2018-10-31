@@ -4,7 +4,7 @@ const {connect, initSchemas} = require('./database/init.js')
 const bodyParser = require('koa-bodyparser')
 const cors = require('koa2-cors')
 const Router = require('koa-router')
-const Log = require('./common/logger');
+const Log = require('./config/logger');
 const logger = require('log4js').getLogger('index.js');
 
 app.use(bodyParser())

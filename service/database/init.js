@@ -13,7 +13,6 @@ exports.connect = ()=>{
     let  maxConnectTimes = 0
 
     return new Promise((resolve,reject)=>{
-
          //增加数据库监听事件
         mongoose.connection.on('disconnected',()=>{
             console.log('***********数据库断开***********')
@@ -43,14 +42,5 @@ exports.connect = ()=>{
 
             resolve()
         })
-
-
-
     })
-
-
-
-
-
-
 }
