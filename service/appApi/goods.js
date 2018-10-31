@@ -77,7 +77,6 @@ router.post('/getDetailGoodsInfo',async(ctx)=>{
 })
 
 //**读取大类数据的接口 */
-
 router.get('/getCategoryList',async(ctx)=>{
     try{
         const Category = mongoose.model('Category')
@@ -86,7 +85,7 @@ router.get('/getCategoryList',async(ctx)=>{
     }catch(error){
         ctx.body={code:500,message:error}
     }
-    
+
 })
 
 /**读取小类的数据 */
@@ -102,7 +101,7 @@ router.post('/getCategorySubList',async(ctx)=>{
     }catch(error){
         ctx.body={code:500,message:error}
     }
-    
+
 })
 
 /**根据类别获取商品列表 */
@@ -121,9 +120,6 @@ router.post('/getGoodsListByCategorySubID',async(ctx)=>{
     }catch(error){
         ctx.body={code:500,message:error}
     }
-    
+
 })
-
-
-
 module.exports = router

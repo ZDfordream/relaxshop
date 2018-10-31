@@ -31,11 +31,19 @@ app.use(router.allowedMethods())
   initSchemas()
 })()
 
+app.on("error",(err,ctx)=>{//捕获异常记录错误日志
+  logger.error(new Date(),":",err);
+});
 
 app.use(async (ctx) => {
   ctx.body = '<h1>relaxmall</h1>'
 })
 
+app.onerror = (err) => {
+  logger.error('捕获到了!', new Date()+"---"+err.message);
+}
+
 app.listen(3000, () => {
   console.log('[Server] starting at port 3000')
+  logger.info('服务启动成功');
 })

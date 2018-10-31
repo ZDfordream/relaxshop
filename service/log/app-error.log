@@ -1,0 +1,10 @@
+[2018-10-31T15:23:27.381][ERROR  6432  index.js] 2018-10-31T07:23:27.381Z ':' ReferenceError: error is not defined
+    at router.get (/Users/zhudong/relaxmall/service/appApi/goods.js:48:30)
+    at dispatch (/Users/zhudong/relaxmall/service/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/zhudong/relaxmall/service/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /Users/zhudong/relaxmall/service/node_modules/koa-router/lib/router.js:346:16
+    at dispatch (/Users/zhudong/relaxmall/service/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at /Users/zhudong/relaxmall/service/node_modules/koa-router/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/zhudong/relaxmall/service/node_modules/koa-router/lib/router.js:351:31)
+    at dispatch (/Users/zhudong/relaxmall/service/node_modules/koa-compose/index.js:42:32)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
